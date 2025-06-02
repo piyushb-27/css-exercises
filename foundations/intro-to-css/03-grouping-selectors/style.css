@@ -1,0 +1,14 @@
+.click-button {
+    background-color:red;
+    color:black;
+}
+
+.dont-click-button {
+    background-color:black;
+    color:white;
+}
+
+.click-button , .dont-click-button {
+    font-size:28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
