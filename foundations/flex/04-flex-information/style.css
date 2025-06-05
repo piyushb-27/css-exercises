@@ -5,12 +5,26 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display:block;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align:center;
 }
+
+.content {
+  margin-top:32px;
+  display:flex;
+  justify-content:center;
+  gap: 52px;
+  
+}
+ .each-section {
+  max-width:200px;
+ }
+
 
 /* do not edit this footer */
 .footer {

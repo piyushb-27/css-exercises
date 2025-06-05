@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* * {
+  border:2px solid red;
+} */
 html, body {
   height: 100%;
 }
 
-body {
+body {  
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
@@ -20,6 +23,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  padding:15px;
+  gap:15px;
 }
 
 .icon {
@@ -66,4 +72,33 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.first-line {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.container-2 {
+  display:flex;
+  flex-direction:column;
+}
+
+.text {
+  margin-top:7px;
+  margin-bottom:15px;
+}
+
+.header {
+  font-size:large;
+  font-weight:bolder;
+}
+
+.close-button {
+  font-weight:bolder;
+}
+
+.icon {
+  flex-shrink:0;
 }
